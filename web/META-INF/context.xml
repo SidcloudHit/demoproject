@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/srfsrsadmin">
+ 
+   
+   <ResourceLink auth="Container" global="SRFSRS" name="SRFSRS" type="javax.sql.DataSource"/>
+   <Resource auth="Container" driverClassName="org.postgresql.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="-1" name="SRFDB"  removeAbandoned="true" removeAbandonedTimeout="600" type="javax.sql.DataSource" url="jdbc:postgresql://10.183.9.112:5432/survey" username="postgres" password="postgres"/>
+   
+</Context>
